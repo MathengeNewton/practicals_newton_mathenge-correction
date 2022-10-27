@@ -1,0 +1,24 @@
+{
+  "name": "fintech-practicals",
+  "version": "1.0.0",
+  "description": "fintech school system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fintech"
+  ],
+  "author": "newton_mathenge",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.3"
+  }
+}
